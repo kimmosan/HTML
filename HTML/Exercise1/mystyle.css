@@ -1,0 +1,126 @@
+html{
+    background-color: black;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 10px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+h3{
+    color:#B8860B;
+}
+
+header{
+    color:#B8860B;
+}
+
+h1{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.sidemenu{
+    position: fixed;
+    top: 200px;
+    left: -5px;
+    background: linear-gradient( #F0E68C 30%, #FFA500 80%, #cF6500 100%);
+    width: 200px;
+    height: 300px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    font-family: cursive;
+    border-radius: 0px 100px 10px 0px;
+}
+
+.sidemenuheader{
+    position:relative;
+    background: linear-gradient(#CD853F, #8B4513 30%, #8B4513 70%, #000000 99%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 0px 100px 0px 0px;
+    
+    
+}
+
+.maincontainer{
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
+
+.mainheader{
+    background: linear-gradient(#F0E68C 30%, #FFA500 80%, #cF6500 100%);
+    border-radius: 100px 100px 10px 10px;
+    padding: 0px 30px;  
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.maincontent{
+    margin-top: 10px;
+    background-color: #F0E68C;
+    background: linear-gradient(#F0E68C 10%, #FFA500 80%, #cF6500 99%);
+    border-radius: 10px;
+    padding: 30px;  
+}
+
+nav{
+    background-color: #F0E68C;
+    background: linear-gradient(#CD853F, #8B4513 30%, #8B4513 70%, #000000 99%);
+    border-radius: 20px;
+    padding: 10px 30px;  
+    word-spacing: 20px;
+}
+
+table{
+    border-color: black;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 14px 14px;
+    padding: 3px;
+}
+
+td, th{
+    border: none;
+}
+
+th{
+    background-color:#B8860B; 
+    border-radius: 10px 10px;
+    padding: 2px 20px;
+    margin: 10px;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:white;
+}
+
+h3:target{
+    background-color: blue;
+}
+
+footer{
+    font-size: 13px;
+    margin: 10px;
+    color: #B8860B;
+    color: linear-gradient(white, #F0E68C 50%, #B8860B); 
+}

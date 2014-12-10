@@ -3,45 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="keywords" content="">
-        <title>Moro</title>
+        <title>Moroburger</title>
         <script src="myscript.js" type="text/javascript"></script>
         <link href="mystyle.css" type="text/css" rel="stylesheet">
-        <style>
-            .A{
-                color:black;
-                background-color: lightblue;
-                width:100px;
-                height: 100px;
-                text-align: center;
-            }
-            .B{
-                position:relative;
-                color:black;
-                background-color: lightgreen;
-                width:50px;
-                height: 50px;
-                text-align: center;
-                left: 100px;
-            }
-            .C{
-                color:black;
-                background-color: pink;
-                width:100px;
-                height: 100px;
-                text-align: center;
-            }
-        </style>
+        <script src="myscript.js"></script>
     </head>
     <body>
-        <!--
-        <div class="A">
-            A
-            <div class="B">B</div>
-            Aa
-        </div>
-        <div class="C">C</div>
-        -->
-        <div class="sidemenu">
+        <div id="anim" class="sidemenu">
             <div class="sidemenuheader">Päivän lounas</div>
             <ul>
                 <li>Nakkipurilainen</li>
@@ -52,69 +20,65 @@
         </div>
         <div>
             <header class="mainheader maincontainer">
-                <h1>Moroburger</h1>
+                <h1>MOROBURGER</h1>
                 <p style="font-size:16px; text-shadow: 1px 1px 0px #000;">
                     Paskoja purilaisia jo vuodesta 2014
                 </p>
             </header>
             <nav class="maincontainer">
-                <a href="http://www.kaleva.fi">Kaleva</a>
-                <a href="http://store.steampowered.com">Steam</a>
-                <a href="#target">klikkaa</a>
+                <a href="#burgerit">Burgerit</a>
+                <a href="#latyt">Lätyt</a>
+                <a href="#yhteystiedot">Yhteystiedot</a>
             </nav>
             <!--Main content of the page-->
             <section class="maincontent maincontainer">
                 <!--First article in the content-->
                 <article>
                     <header>
-                        <h3 id="target">Myytäviä tavaroita</h3>
+                        <h3 id="yhteystiedot">BURGERIT</h3>
                     </header>
                     <table>
                         <!--Table header-->
-                        <thead>
-                            <tr>
-                                <th>Tuote</th>
-                                <th>Määrä</th>
-                                <th>Hinta (€)</th>
-                            </tr>
-                        </thead>
                         <tbody>
                             <!--First row-->
                             <tr> 
-                                <td>Apple iPaadi</td>
-                                <td>666</td>
-                                <td>20</td>
+                                <td>Nakkibunkkeri</td>
+                                <td>20 €</td>
                             </tr>
                             <!--Second row-->
                             <tr>
                                 <td>Nokia Lumia</td>
-                                <td>2.1</td>
-                                <td>13</td>
+                                <td>13 €</td>
                             </tr>
                             <!--Third row-->
                             <tr>
-                                <td colspan="3">Datsun</td>
+                                <td>Datsun</td>
+                                <td>600 €</td>
                             </tr>
                             <!--Fourth row-->
                             <tr>
-                                <td>Samsung Ass5</td>
+                                <td>Rankka päivä BBQ</td>
+                                <td>10 €</td>
                             </tr>
                         </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>fuuteri</td>
-                            </tr>
-                        </tfoot>
                     </table>
                 </article>
-                <article>
+                <article id="lattyartikkeli">
                     <header>
-                        <h3>Lontoon kuvia</h3>
+                        <h3 id="latyt">LÄTYT</h3>
                     </header>
                     <figure>
                         <img src="london.jpg" alt="Kuva1">
                         <img src="big_ben.jpg" alt="Kuva2">
                     </figure>
+                </article>
+                <article>
+                    <header>
+                        <h3 id="yhteystiedot">YHTEYSTIEDOT</h3>
+                        <p>Katutie 1</p>
+                        <p>90666 Jepjep</p>
+                    </header>
+                
                 </article>
             </section>
             <footer>Sivu made by pojat</footer>

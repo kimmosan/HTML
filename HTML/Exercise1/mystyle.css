@@ -1,7 +1,8 @@
 html{
-    background-color: black;
+    background-color: #12E3FF;
     margin-left: 0px;
     padding: 0px;
+    color: white;
 }
 
 body{
@@ -11,11 +12,14 @@ body{
 }
 
 h3{
-    color:#B8860B;
+    color:#B24F02;
+    border-style: none none dotted none;
+    border-color: white;
+    border-width: 5px
 }
 
 header{
-    color:#B8860B;
+    color:#B24F02;
 }
 
 h1{
@@ -26,38 +30,43 @@ h1{
 .sidemenu{
     position: fixed;
     top: 200px;
-    left: -5px;
-    background: linear-gradient( #F0E68C 30%, #FFA500 80%, #cF6500 100%);
+    left: -10px;
+    background: #FF903B;
     width: 200px;
-    height: 300px;
-    border-width: 5px;
+    height: 200px;
+    border-width: 10px;
     border-color: white;
     border-style: solid;
     font-family: cursive;
     border-radius: 0px 100px 10px 0px;
+    transition: all 1s ease-in-out;
+}
+
+.sidemenu:hover{
+    /*transform: rotate(360deg);*/
 }
 
 .sidemenuheader{
+    width: 120px;
     position:relative;
-    background: linear-gradient(#CD853F, #8B4513 30%, #8B4513 70%, #000000 99%);
+    background: #8B4513;
     text-align: center;
     padding: 10px;
     border-radius: 0px 100px 0px 0px;
-    
-    
+    color: white;
 }
 
 .maincontainer{
     max-width: 600px;
     margin: 0 auto;
     box-sizing: border-box;
-    border-width: 5px;
+    border-width: 10px;
     border-color: white;
     border-style: solid;
 }
 
 .mainheader{
-    background: linear-gradient(#F0E68C 30%, #FFA500 80%, #cF6500 100%);
+    background: #FF903B;
     border-radius: 100px 100px 10px 10px;
     padding: 0px 30px;  
     text-shadow: 2px 2px 2px #000000;
@@ -70,25 +79,26 @@ h1{
 .maincontent{
     margin-top: 10px;
     background-color: #F0E68C;
-    background: linear-gradient(#F0E68C 10%, #FFA500 80%, #cF6500 99%);
+    background: #FF903B;
     border-radius: 10px;
     padding: 30px;  
 }
 
 nav{
     background-color: #F0E68C;
-    background: linear-gradient(#CD853F, #8B4513 30%, #8B4513 70%, #000000 99%);
+    background: #8B4513;
     border-radius: 20px;
     padding: 10px 30px;  
-    word-spacing: 20px;
+    word-spacing: 20px; 
 }
 
 table{
-    border-color: black;
-    border-width: 2px;
-    border-style: dotted;
-    border-radius: 14px 14px;
+    border-color: white;
+    border-width: 5px;
+    border-style: none;
+    border-radius: 14px 14px 14px 14px;
     padding: 3px;
+    width: 50%;
 }
 
 td, th{
@@ -96,10 +106,26 @@ td, th{
 }
 
 th{
-    background-color:#B8860B; 
+    background-color:#B24F02; 
     border-radius: 10px 10px;
     padding: 2px 20px;
     margin: 10px;
+}
+
+a{
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:link{
+    color:#ffffff;
+}
+
+nav a:visited{
+    color:#ffffff;
+}
+
+nav a:hover{
+    color:#aaaaaa;
 }
 
 a:link{
@@ -115,7 +141,11 @@ a:hover{
 }
 
 h3:target{
-    background-color: blue;
+    /*background-color: blue;*/
+}
+
+p{
+    color:white;
 }
 
 footer{
@@ -123,4 +153,7 @@ footer{
     margin: 10px;
     color: #B8860B;
     color: linear-gradient(white, #F0E68C 50%, #B8860B); 
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
